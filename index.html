@@ -1,1 +1,151 @@
-Hello.
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hello.</title>
+	<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hind&display=swap" rel="stylesheet">
+	<style>
+	body {
+		background-color: #fff;
+		color: #292b2a;
+		font-family: 'Hind', sans-serif;
+		font-size: 1.05rem;
+		line-height: 1.75rem;
+	}
+	p {
+		margin-bottom: 2.25rem;
+	}
+
+	h1, h2, h3 {
+		font-family: 'Dancing Script', cursive;
+	}
+
+	h1 {
+		font-size: 2.25rem;
+		line-height: 2.35rem;
+	}
+
+	.container {
+		max-width: 1030px;
+		padding: 0 6rem 3rem;
+		margin: 5rem auto 2rem;
+	}
+
+	blockquote {
+		border-left: 3px solid #00cc8f;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		font-style: italic;
+		margin: 0 0 2rem 0;
+		padding: 1em 2em;
+		position: relative;
+		transition: 0.2s border ease-in-out;
+		z-index: 0;
+	}
+	blockquote:before {
+		content: "";
+		position: absolute;
+		top: 50%;
+		left: -4px;
+		height: 2em;
+		background-color: #fff;
+		width: 5px;
+		margin-top: -1em;
+	}
+	blockquote:after {
+		content: "\f3fb";
+		font-size: 1.65rem;
+		position: absolute;
+		top: 50%;
+		left: -0.5em;
+		color: #00CC8F;
+		font-family: "Ionicons";
+		font-style: normal;
+		line-height: 1em;
+		text-align: center;
+		text-indent: -2px;
+		width: 1em;
+		margin-top: -0.5em;
+		transition: 0.2s all ease-in-out, 0.4s transform ease-in-out;
+	}
+
+	blockquote:active:after {
+		transform: rotateY(360deg);
+	}
+
+	blockquote cite {
+		display: block;
+		font-size: 0.75em;
+		line-height: 1.8em;
+		margin-top: 1em;
+	}
+
+	@media (max-width: 980px) {
+		.container {
+			max-width: 720px;
+			padding: 0 3em 3em;
+		}
+
+		blockquote {
+			font-size: 1.1em;
+			margin: 1.1em -2em;
+		}
+	}
+
+	@media (max-width: 767px) {
+		.container {
+			padding: 0 2em 3em;
+		}
+
+		blockquote {
+			border-top: 2px solid #00CC8F;
+			border-bottom: 2px solid #00CC8F;
+			border-left: none;
+			margin: 1.5em 0;
+			padding: 1.5em 1em;
+		}
+		blockquote:before {
+			left: 50%;
+			top: 0;
+			height: 4px;
+			margin-top: -3px;
+			margin-left: -1em;
+			width: 2em;
+		}
+		blockquote:after {
+			font-size: 1.5rem;
+			left: 50%;
+			top: 0;
+			margin-top: -0.5em;
+			margin-left: -0.5em;
+		}
+		blockquote cite {
+			text-align: right;
+		}
+	} 
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Moments before the flood.</h1>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores libero voluptatem dignissimos quod velit mollitia amet, ut excepturi quaerat, doloremque laudantium quidem iure nihil. Culpa quis quidem non exercitationem ducimus.
+			Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate cum nihil distinctio repellat soluta dolorem quod mollitia, voluptatem iusto aspernatur fugit, placeat ea voluptates neque unde nam? Animi, quisquam aut.
+		</p>
+		<blockquote class="">
+			Lorem ipsum dolor, sit amet consectetur adipisicing elit. At id autem perferendis consequatur neque reprehenderit.
+			<cite>~ John Doe</cite>
+		</blockquote>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores libero voluptatem dignissimos quod velit mollitia amet, ut excepturi quaerat, doloremque laudantium quidem iure nihil. Culpa quis quidem non exercitationem ducimus.
+			Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate cum nihil distinctio repellat soluta dolorem quod mollitia, voluptatem iusto aspernatur fugit, placeat ea voluptates neque unde nam? Animi, quisquam aut.
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo facere optio beatae, quidem eum, corporis totam saepe provident quia odit in, culpa illo assumenda laudantium consequuntur recusandae nihil molestias fugiat.
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veritatis hic amet voluptatibus autem deleniti quis, asperiores dolorem, alias, aperiam sapiente ipsa eius voluptatum! Id reprehenderit sapiente excepturi vitae voluptatum.
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, in magnam quaerat neque quis reiciendis rerum voluptatum saepe obcaecati, sunt minima accusantium dolor eos ad enim, earum quam veritatis doloremque!
+			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis doloremque perspiciatis, consectetur illum amet dolores modi, eos eum ipsa, quibusdam magni excepturi. Aperiam autem officiis rerum veniam repellat, ratione nulla.
+		</p>
+	</div>
+</body>
+</html>
